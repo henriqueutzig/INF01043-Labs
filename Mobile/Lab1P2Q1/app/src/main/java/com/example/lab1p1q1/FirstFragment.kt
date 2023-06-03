@@ -58,19 +58,19 @@ class FirstFragment : Fragment(), SensorEventListener {
             // In this example, alpha is calculated as t / (t + dT),
             // where t is the low-pass filter's time-constant and
             // dT is the event delivery rate.
-            val alpha: Float = 0.8f
-            var gravity : FloatArray = FloatArray(3)
-            var linearAcceleration : FloatArray = FloatArray(3)
+            //val alpha: Float = 0.8f
+            //var gravity : FloatArray = FloatArray(3)
+            //var linearAcceleration : FloatArray = FloatArray(3)
 
             // Isolate the force of gravity with the low-pass filter.
-            gravity[0] = alpha * gravity[0] + (1 - alpha) * event.values[0]
-            gravity[1] = alpha * gravity[1] + (1 - alpha) * event.values[1]
-            gravity[2] = alpha * gravity[2] + (1 - alpha) * event.values[2]
+            //gravity[0] = alpha * gravity[0] + (1 - alpha) * event.values[0]
+            //gravity[1] = alpha * gravity[1] + (1 - alpha) * event.values[1]
+            //gravity[2] = alpha * gravity[2] + (1 - alpha) * event.values[2]
 
             // Remove the gravity contribution with the high-pass filter.
-            linearAcceleration[0] = event.values[0] - gravity[0]
-            linearAcceleration[1] = event.values[1] - gravity[1]
-            linearAcceleration[2] = event.values[2] - gravity[2]
+            //linearAcceleration[0] = event.values[0] - gravity[0]
+            //linearAcceleration[1] = event.values[1] - gravity[1]
+            //linearAcceleration[2] = event.values[2] - gravity[2]
 
 
         //if (linearAcceleration[0] > 9.81 || linearAcceleration[1] > 9.81 || linearAcceleration[2] > 9.81 )
