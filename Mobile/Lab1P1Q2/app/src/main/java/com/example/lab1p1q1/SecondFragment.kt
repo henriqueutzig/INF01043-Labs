@@ -36,19 +36,9 @@ class SecondFragment : Fragment() {
 
         // write arg to header
         val args: SecondFragmentArgs by navArgs()
-        val count = args.randNum
-        val countTxt = getString(R.string.second_fragment_label, count)
+        val str = args.frag1Str
 
-        view.findViewById<TextView>(R.id.textview_header).text = countTxt
-
-        // generate and diplay rand num
-        val rand = java.util.Random()
-        var randNum = 0
-        if (count > 0)
-        {
-            randNum = rand.nextInt(count+1)
-        }
-        view.findViewById<TextView>(R.id.textview_random).text = randNum.toString()
+        view.findViewById<TextView>(R.id.textview_random).text = str
 
         binding.buttonSecond.setOnClickListener {
             findNavController().navigate(R.id.action_SecondFragment_to_FirstFragment)
