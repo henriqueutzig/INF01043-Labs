@@ -4,9 +4,9 @@ In this lab we explore a little by about mobile devices interfaces, more specifi
 
 - [Instruction Mobile Lab pt.1](/inst-lab1-p1.pdf)
   - [Solution Mobile Lab pt.1 ex 1](/Lab1P1Q1/)
-  - [Solution Mobile Lab pt.1 ex 2]()
-  - [Solution Mobile Lab pt.1 ex 3]()
+  - [Solution Mobile Lab pt.1 ex 2](/Lab1P1Q2/)
+  - [Solution Mobile Lab pt.1 ex 3](/Lab1P1Q3/)
 - [Instruction Mobile Lab pt.2](/inst-lab1-p2.pdf)
-  - [Solution Mobile Lab pt.2 ex 1]()
+  - [Solution Mobile Lab pt.2 ex 1](/Lab1P2Q1/)
   - [Solution Mobile Lab pt.2 ex 2]()
   - [Solution Mobile Lab pt.2 ex 3]()
