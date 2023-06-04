@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Lab1P1Q1</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Fragment 1</string>
+    <string name="second_fragment_label">Fragment 2</string>
+    <string name="send_str_txt">Send str to Fragment 2</string>
+    <string name="previous">Previous</string>
+
+    <string name="count_button_txt">Count</string>
+    <string name="hello_first_fragment">Hello world</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="toast_button_str">Toast</string>
+</resources>
